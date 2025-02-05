@@ -1,5 +1,18 @@
+/* General */
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b32;
+    color: #f5f6f7;
+}
+
+/* Navbar */
+#navbar header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
 }
 
 #navbar {
@@ -9,7 +22,38 @@
     display: block;
 }
 
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 88%;
+}
+
+#navbar li {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #d0d0d5;
+}
+
+#navbar a {
+    padding: 10px 30px;
+    display: block;
+    color: #f5f6f7;
+    text-decoration: none;
+}
+
+/*  */
 #main-doc {
     position: absolute;
     margin-left: 310px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
 }
