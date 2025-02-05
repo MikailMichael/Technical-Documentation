@@ -64,9 +64,13 @@ body {
     padding-left: 20px;
 }
 
-
-
-
+.main-section code {
+    display: block;
+    background-color: #2a2a40;
+    padding: 20px 15px;
+    margin: 10px 40px 10px 40px;
+    border-radius: 5px;
+}
 
 @media (max-width: 768px) {
     
